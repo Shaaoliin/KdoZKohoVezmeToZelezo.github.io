@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Deskova hra" />
+    <meta name="keywords" content="Deskova hra, Zabava" />
+    <meta name="author" content="Luboš Lucík" />
+    <link rel="shortcut icon" href="Asset/Nazev.png" />
+    <title>Pravidla </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="Asset/Nazev.png" alt="Malý obrázek" class="ImageVlevemmRohu">
+    <header>
+        <h1>Pravidla hry</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="pravidla.html">Pravidla</a></li>
+                <li><a href="soubory.html">Soubory ke stažení</a></li>
+                <li><a href="Info.html">Informace</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+          <div class="box">
+            <h2>Hrací plán:</h2>
+            <ul>
+                <li>Celkem policek:<strong>38</strong></li>
+                <li>Barvy policek a jejich efekty:</li>
+                <ul>
+                    <li>Červená cesta: <strong>Odebere hráči 1 život</strong></li>
+                    <li>Růžová cesta:<strong> Odebere hráči 2 životy</strong></li>
+                    <li>Černá cesta: <strong>Vrací hráče na startovní pozici</strong></li>
+                    <li>Zelená cesta:<strong>Přidá hráči 1 život</strong></li>
+                    <li>Žlutá cesta:<strong>Přidá hráči 2 životy</strong></li>
+                </ul>
+            </ul>
+
+            <h2>Pravidla hry:</h2>
+            <h3>Začátek hry:</h3>
+            <p>Každý hráč začíná na startovní pozici s 6 životy. Hráči hází kostkou, aby určili pořadí hry.</p>
+            <h3>Hráčův tah:</h3>
+            <p>Na začátku každého tahu hráč hodí kostkou (1-6) a posune se o příslušný počet políček. Přistání na různých barevných cestách má různé efekty:</p>
+            <ul>
+                <li>Červená a růžová cesta: Snížení životů.</li>
+                <li>Černá cesta: Okamžitý návrat na start.</li>
+                <li>Zelená a žlutá cesta: Zvýšení životů.</li>
+            </ul>
+            <p>Pokud hráč dosáhne nebo překročí hranici 0 životů, je vyřazen z hry.</p>
+            <h3>Cíl hry:</h3>
+            <p>Hra pokračuje, dokud nezůstane v hře pouze jeden hráč s životy nebo dokud některý hráč nedojde do cíle. Vítězí hráč s nejvíce životy na konci hry nebo poslední hráč, který zůstane v hře.</p>
+
+          </div>
+
+        <div id="cards-container">
+            <div class="card" id="card1">
+                <div class="overlay">
+                    <a href="pravidla.html">Pravidla hry</a>
+                </div>
+            </div>
+            <div class="card" id="card2">
+                <div class="overlay">
+                    <a href="soubory.html">Soubory ke stažení</a>
+                </div>
+            </div>
+            <div class="card" id="card3">
+                <div class="overlay">
+                    <a href="Info.html">Informace</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Vytvořil &copy; Luboš Lucík 2024 pro Programové vybavení Střední škola AGC </p>
+    </footer>
+</body>
+</html>
